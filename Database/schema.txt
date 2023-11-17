@@ -1,0 +1,46 @@
+CREATE TABLE sqlite_sequence (
+    name TEXT,
+    seq
+);
+CREATE TABLE "bill" (
+    "bill_no" TEXT NOT NULL,
+    "date" TEXT NOT NULL,
+    "customer_name" TEXT NOT NULL,
+    "customer_no" TEXT NOT NULL,
+    "bill_details" TEXT,
+    PRIMARY KEY("bill_no")
+);
+CREATE TABLE inventory (
+    product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_name TEXT,
+    product_cat TEXT,
+    product_subcat TEXT,
+    stock INTEGER,
+    cp REAL,
+    sp REAL,
+    totalcp REAL,
+    totalsp REAL,
+    assumed_profit INTEGER,
+    vendor TEXT,
+    vendor_phoneno INTEGER
+);
+CREATE TABLE raw_inventory (
+    product_id INTEGER PRIMARY KEY UNIQUE NOT NULL,
+    product_name TEXT,
+    product_cat TEXT,
+    product_subcat TEXT,
+    stock INTEGER,
+    mrp REAL,
+    cost_price REAL,
+    vendor_phn TEXT
+);
+CREATE TABLE employee (
+    emp_id TEXT NOT NULL,
+    name TEXT NOT NULL,
+    contact_num TEXT,
+    address TEXT,
+    aadhar_num TEXT,
+    password TEXT NOT NULL,
+    designation TEXT,
+    PRIMARY KEY (emp_id)
+);
