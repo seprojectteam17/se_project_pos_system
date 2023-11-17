@@ -35,7 +35,7 @@ button1.configure(background="#ffffff")
 button1.configure(borderwidth="0")
 img2 = PhotoImage(file="./images/1.png")
 button1.configure(image=img2)
-button1.configure(command=emp)
+button1.configure(command=employee)
 
 button2 = Button(main)
 button2.place(relx=0.566, rely=0.448, width=146, height=90)
@@ -48,7 +48,7 @@ button2.configure(background="#ffffff")
 button2.configure(borderwidth="0")
 img3 = PhotoImage(file="./images/2.png")
 button2.configure(image=img3)
-button2.configure(command=adm)
+button2.configure(command=admin)
 
 main.mainloop()
 
