@@ -16,7 +16,9 @@ main.protocol("WM_DELETE_WINDOW", Exit)
 #user block (to be filled by another teammate)
 
 def admin():
-   pass
+    main.withdraw()
+    os.system("python admin.py")
+    main.deiconify()
 def employee():
    pass
 label1 = Label(main)
