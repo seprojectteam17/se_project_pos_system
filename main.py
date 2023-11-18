@@ -19,8 +19,12 @@ def admin():
     main.withdraw()
     os.system("python admin.py")
     main.deiconify()
+
 def employee():
-   pass
+    main.withdraw()
+    os.system("python employee.py")
+    main.deiconify()
+    
 label1 = Label(main)
 label1.place(relx=0, rely=0, width=1366, height=768)
 img = PhotoImage(file="./images/main.png")
