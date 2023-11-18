@@ -12,7 +12,7 @@ from tkinter import scrolledtext as tkst
 root = Tk()
 
 root.geometry("1366x768")
-root.title("Retail Manager")
+root.title("Store employee")
 
 
 user = StringVar()
