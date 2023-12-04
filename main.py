@@ -13,7 +13,9 @@ def Exit():
         main.destroy()
         
 main.protocol("WM_DELETE_WINDOW", Exit)
-#user block (to be filled by another teammate)
+#user block (to be filled by team member - 2)
+def user():
+    pass
 
 def admin():
     main.withdraw()
