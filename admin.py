@@ -7,6 +7,7 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
 from time import strftime
+from tkinter import simpledialog
 from datetime import date
 from tkinter import scrolledtext as tkst
 import tkinter
