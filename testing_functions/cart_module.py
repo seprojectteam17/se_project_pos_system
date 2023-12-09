@@ -1,4 +1,4 @@
-# cart_module.py
+# Cart Module
 
 class Item:
     def __init__(self, name, price, qty):
